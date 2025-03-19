@@ -1,10 +1,10 @@
-Movie Recommendation System
+                                                                                                  Movie Recommendation System 
 
-Overview
+Overview :
 
 This project is a Smart Movie Recommendation System that provides personalized movie suggestions based on user preferences and contextual factors. The system leverages machine learning techniques to analyze datasets and recommend movies that align with specific user interests.
 
-Approach & Methodology
+Approach & Methodology :
 
 Data Collection: The dataset consists of movies with details like title, director, genre, cast, rating, revenue, and more.
 
@@ -34,7 +34,7 @@ Top-rated Christopher Nolan movies
 
 Animated Oscar-winning movies
 
-Data Preprocessing & Selection
+Data Preprocessing & Selection :
 
 Data Cleaning: Removed duplicates, handled missing values, and normalized numerical fields.
 
@@ -42,7 +42,7 @@ Feature Selection: Selected relevant features such as genre, director, cast, rat
 
 Data Splitting: Divided the dataset into training and test sets for evaluation.
 
-Model Architecture & Tuning Process
+Model Architecture & Tuning Process :
 
 Baseline Models: Implemented simple recommendation algorithms like weighted average rating.
 
@@ -52,10 +52,22 @@ Hyperparameter Tuning: Applied GridSearchCV for optimizing parameters in models.
 
 Context-Aware Improvements: Integrated sentiment analysis and contextual factors (e.g., weather, time of day) to refine recommendations.
 
-Performance Results & Next Steps
+Performance Results & Next Steps :
 
-Performance Evaluation
+Performance Evaluation :
 
-Metrics Used: RMSE (Root Mean Squared Error), Precision@K, Recall@K
+Metrics Used: RMSE (Root Mean Squared Error) is 1.267, Precision is 90, Recall is 100 and also confusion matrix is done.
 
 Results: The hybrid model showed the best results, balancing content-based and collaborative filtering.
+
+Next Steps :
+
+Improve recommendation diversity to avoid repetitive suggestions.
+
+Integrate real-time user feedback to refine recommendations dynamically.
+
+Expand dataset with streaming platform data (e.g., Netflix, Hulu, Disney+).
+
+Deploy as a web application with a user-friendly interface.
+
+
